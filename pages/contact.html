@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>BrandWriters</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="icon" href="../assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <img class="navigation__logo" src="../assets/logo.png" alt="logo" />
+        <div class="navigation__menu">
+          <a class="navigation__menu__button" href="../index.html">Home</a>
+          <a class="navigation__menu__button" href="./offer.html">Offer</a>
+          <a class="navigation__menu__button" href="aboutus.html">About us</a>
+          <a class="navigation__menu__button navigation__menu__button--active"
+            >Contact</a
+          >
+        </div>
+        <div class="navigation__user">
+          <a class="navigation__user__register" href="../index.html">Sign up</a>
+          <a class="navigation__user__login" href="../index.html">Log in</a>
+        </div>
+        <a class="hamburger__menu" href="#menu">
+          <img
+            class="hamburger__menu__icon"
+            src="../assets/hamburger.png"
+            alt="Hamburger Menu"
+        /></a>
+      </nav>
+    </header>
+    <div id="menu">
+      <a class="close__menu__icon" href="#closemenu"
+        ><img
+          class="close__menu__icon"
+          src="../assets/closemenu.png"
+          alt="close menu icon"
+      /></a>
+      <img class="hamburger__menu__logo" src="../assets/logo.png" alt="logo" />
+      <div class="menu__list">
+        <a class="menu__list__button" href="../index.html">Home</a>
+        <a class="menu__list__button" href="./offer.html">Offer</a>
+        <a class="menu__list__button" href="./aboutus.html">About us</a>
+        <a class="menu__list__button menu__list__button--active">Contact</a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <main>
+      <div class="contact">
+        <div class="contact__text">
+          <div class="contact__text__headtitle">Get in Touch with Us</div>
+          <div class="contact__text__subtitle">
+            Looking to elevate your brand or have questions about our services?
+            We'd love to hear from you! Reach out to us using the contact
+            information below or fill out the form, and our team will get back
+            to you shortly.
+          </div>
+          <div>
+            Contact Information:
+            <br />
+            <ul class="contact__text__contact-data">
+              <li>Email: info@example.com</li>
+              <li>Phone: +1 (000) 123-4567</li>
+            </ul>
+          </div>
+          <div class="contact__text__address">
+            Our Office: <br />
+            <div class="contact__text__address__details">
+              BrandWriters 123 Main Street <br />
+              City, State, ZIP Code
+            </div>
+          </div>
+          <div>
+            Feel free to drop by during our office hours:
+            <div class="contact__text__open-information">
+              Monday - Friday: 9:00 AM to 5:00 PM
+            </div>
+          </div>
+          <div class="contact__text__slogan">
+            We're excited to collaborate with you and bring your brand vision to
+            life!
+          </div>
+        </div>
+        <form class="contact__form">
+          <div>
+            <input
+              class="contact__form__input"
+              type="text"
+              id="first_name"
+              name="first_name"
+              placeholder="First name"
+              required
+            />
+            <input
+              class="contact__form__input"
+              type="text"
+              id="last_name"
+              name="last_name"
+              placeholder="Last name"
+              required
+            />
+          </div>
+          <input
+            class="contact__form__input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <textarea
+            class="contact__form__input"
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <input class="contact__form__submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">© Copyright BrandWriters 2024</footer>
+  </body>
+</html>
